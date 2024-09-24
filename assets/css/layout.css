@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Noto+Sans+KR:wght@400;500;700&display=swap');
+@import 'reset.css';
+
+/* common */
+.blind{
+    position: absolute;   
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    margin: -1px;
+}
+.content-title {
+    font-family: 'Montserrat',  'Noto Sans KR', sans-serif
+}
+.bar {
+
+}
+
+/* header */
+header {
+    position: relative;
+    height: 60px;
+}
+header .menu {
+    position: absolute;
+    left: 18px;
+    top: 21px;
+    width: 25px;
+    height: 19px;
+}
+header .logo {
+    width: 133px;
+    height: 17px;
+    background: url("../image/mobile_logo_03.png");
+    background-size: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+header .bucket {
+    position: absolute;
+    width: 23px;
+    height: 23px;
+    right: 18px;
+    top: 19px;
+}
+
+
+/* footer */
+footer {
+    position: relative;
+}
+footer .sns{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    background: #d71609;
+    margin-top: 60px;
+}
+footer .sns > a {
+    display: block;
+}
+footer .sns .facebook{
+    width: 32px;
+    height: 32px;
+}
+footer .sns .blog{
+    width: 35px;
+    height: 35px;
+}
+footer .sns .instagram{
+    width: 35px;
+    height: 35px;
+}
+footer .sns .youtube{
+    display: flex;
+    align-items: center;
+    width: 35px;
+    height: 25px;
+}
+
+footer .group{
+    height: 390px;
+    background: #aaaaaa;
+    color: #fff;
+    padding-top: 35px;
+}
+footer .group .customer{
+    text-align: center;
+    border: 1px solid #fff;
+    width: 200px;
+    height: 100px;
+    margin: 0 auto;
+}
+footer .group .customer h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 15px;
+    margin-top: 16px;
+}
+footer .group .customer .time {
+    display: block;
+    margin-top: 9px;
+    font-size: 12px;
+    line-height: 15px;
+}
+footer .group .customer .tel {
+    display: block;
+    margin-top: 16px;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    line-height: 15px;
+}
+footer .group .info{
+    margin-left: 20px;
+}
+footer .group .info h2{
+    background: url('../image/footer-logo_08.png') no-repeat;
+    background-size: 100%;
+    width: 135px;
+    height: 17px;
+    margin-top: 42px;
+}
+footer .group .info address{
+    margin-top: 19px;
+    font-size: 12px;
+    line-height: 18px;
+}
+footer .group .info .copyright{
+    font-size: 12px;
+    line-height: 18px;
+}
+footer .up {
+    position: absolute;
+    right: 10px;
+    bottom: 17px;
+    width: 30px;
+    height: 30px;
+}
+.bar {
+    display: inline-block;
+    width: 1px;
+    height: 10px;
+    background-color: #fff;
+    margin: 0 5px;
+}
