@@ -1,9 +1,7 @@
 .sc-visual {
     position: relative;    
 }
-.sc-visual a {
-    
-}
+.sc-visual a {}
 .sc-visual img {
     width: 100%;
 }
@@ -25,13 +23,10 @@
     background: #fff;
 }
 
-
 .sc-intro {
     padding: 0 10px;
 }
-.sc-intro .content {
-
-}
+.sc-intro .content {}
 .sc-intro .content-title{
     color: #222;
     text-align: center;
@@ -229,6 +224,12 @@
     display: flex;
     align-items: center;
     border-top: 1px solid #ddd;
+}
+.sc-board .board-list .board-item .desc {
+    max-width: 510px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
 }
 .sc-board .board-list .board-item:nth-child(1) {
     border-top: 2px solid #dddddd;
